@@ -1,0 +1,64 @@
+body {
+	font-family: sans-serif;
+}
+
+nav{
+	width:180px;/*semantico correcto: se da ancho a nav;*/
+}
+
+ul {
+	/*outline: 1px solid yellow;/*propiedad donde dibuja contorno etiqueta ayuda visual*/
+	list-style: none;/*le quita el estilo a la lista (Estilo puntos)*/
+	margin: 0;
+	padding: 0;
+	line-height: 24px;
+	
+}
+
+li{
+	/*outline: 1px solid red;guia espacio*/
+	background: #f5f5f0;
+
+	}
+	/*Estados de los enlaces:Link Visited Hover Active;*/
+
+a{
+	/*outline: 1px solid green;guia espacio*/
+	display: block;/*transforma de linea a block, asi ocupa el espacio ancho etiqueta padre*/
+	text-decoration: none;
+	color:#000;
+	padding-left:8px;
+}
+
+
+a:hover {
+	background:#e0e0d1;
+	
+}
+
+
+ul li:first-child {
+
+	background:#f9a91a;
+
+}
+
+ul li:first-child a {
+	color:#fff;
+
+}
+
+ul li:first-child a:hover{/*hover estilo de un enlace al pasar mouse*/
+	color:#000;
+}
+
+
+ul li:first-child a:active{/*active estilo de un enlace al hacer clik*/
+	color:#fff;
+}
+
+
+a:active{
+	background:#333 ;
+	color:#fff;
+}http://laboratoria.la/
